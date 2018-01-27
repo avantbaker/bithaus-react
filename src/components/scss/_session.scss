@@ -1,0 +1,79 @@
+.session {
+  max-width: 460px;
+  margin: 110px auto;
+
+  .header {
+    margin-bottom: 40px;
+    height: 34px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.13;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+
+  .account-form {
+    background: #fff;
+    box-shadow: 0px 1px 46px -4px rgba(0,0,0,0.28);
+
+    .tab {
+      position: relative;
+      height: 50px;
+      border-bottom: 3px solid lightgray;
+      color: lightgray;
+
+      h2 {
+        font-size: 16px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-wrap: none;
+      }
+
+      &.active {
+        border-bottom: 3px solid $primary;
+        color: $primary;
+      }
+    }
+
+    input.submit {
+      border-radius: 2px;
+      color: #fff;
+      background-image: linear-gradient($primary, #a73837);
+      font-size: 11px;
+      text-transform: uppercase;
+      height: 42px;
+      letter-spacing: 0.05em;
+      width: auto;
+      padding: 1em 2em;
+    }
+
+    input.check-box {
+      width:auto;
+      border-radius: 2px;
+      float: left;
+      margin-left: -20px;
+      height: auto;
+    }
+
+    label {
+      color: #484c57;
+      font-size: 12px;
+      display: block;
+      margin-bottom: 5px;
+      line-height: 20px;
+      cursor: pointer;
+
+      &.check-box {
+        min-height: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+      }
+    }
+
+  }
+
+}

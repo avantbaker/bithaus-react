@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
 
+import SignInPage from './pages/SignInPage';
+
+// Eventually Will Be Replaced with a Router
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="header">
-            <h1 className="title m-collapse">bithaüs</h1>
-            <a className="btn btn-navbar collapsed">
-                <span className="icon-bar" />
-                <span className="icon-bar" />
-                <span className="icon-bar" />
-            </a>
-        </header>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="app">
+                <SignInPage />
+            </div>
+        );
+    }
 }
 
 export default App;
