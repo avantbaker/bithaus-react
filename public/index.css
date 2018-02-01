@@ -5853,11 +5853,14 @@ html, body {
 
 .header {
   height: auto;
-  padding: 20px;
-  color: white; }
+  padding: 20px 0px; }
+  .header a:hover {
+    text-decoration: none; }
   .header .title {
     font-size: 2.4em;
-    margin-top: 16px; }
+    margin-top: 16px;
+    color: #fff;
+    text-decoration: none; }
 
 .form {
   padding: 32px 24px;
