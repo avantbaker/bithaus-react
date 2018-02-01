@@ -9,6 +9,7 @@ html, body {
 
 .app {
   height: 100%;
+  width: 100%;
 }
 
 .app-logo {
@@ -23,7 +24,6 @@ html, body {
 .page-wrapper {
   width: 100%;
   height: 100%;
-  background-color: $primary;
 }
 
 @keyframes app-logo-spin {

@@ -5817,6 +5817,9 @@ button.close {
 .m-collapse {
   margin: 0; }
 
+.p-collapse {
+  padding: 0; }
+
 .clearfix:before {
   display: table;
   content: "";
@@ -5827,6 +5830,9 @@ button.close {
   content: "";
   line-height: 0; }
 
+.bg-primary {
+  background-color: #cb3837; }
+
 html, body {
   margin: 0;
   height: 100%; }
@@ -5835,7 +5841,8 @@ html, body {
   height: 100%; }
 
 .app {
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .app-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -5846,8 +5853,7 @@ html, body {
 
 .page-wrapper {
   width: 100%;
-  height: 100%;
-  background-color: #cb3837; }
+  height: 100%; }
 
 @keyframes app-logo-spin {
   from {

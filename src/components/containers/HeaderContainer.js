@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import classnames from 'classnames';
 
 class HeaderContainer extends Component {
     render() {
+        const classNames = classnames('header', this.props.className);
         return (
-            <header className="header">
-                <h1 onClick={this.props.onLogoClick} className="title m-collapse">bithaüs</h1>
+            <header className={classNames}>
+                <h1 onClick={this.props.onLogoClick} className="m-collapse">bithaüs</h1>
             </header>
         )
     }

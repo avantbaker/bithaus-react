@@ -23,10 +23,16 @@ class SignInPage extends Component {
         if (redirectToReffer) return (<Redirect to={from} />);
 
         return (
-            <div className="page-wrapper">
-                <div className="container">
-                    <HeaderContainer onLogoClick={this.login} />
-                    <SessionContainer title="Sign in to Bithaüs" />
+            <div className="page-wrapper bg-primary">
+                <div className="container-fluid bg-primary m-collapse p-collapse">
+                    <HeaderContainer
+                        className="container"
+                        onLogoClick={this.login}
+                    />
+                    <SessionContainer
+                        className="container"
+                        title="Sign in to Bithaüs"
+                    />
                 </div>
             </div>
         );
