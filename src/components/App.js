@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
-import {
-    Route,
-} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
-import SignInPage from './pages/SignInPage';
 import RouterWithWrapper from './utilities/RouterWithWrapper';
 
-const Dashboard = (props) => {
-    return (
-        <h3>Dashboard</h3>
-    );
-};
+import SignInPage from './pages/SignInPage';
+import Dashboard from './pages/DashboardPage';
 
 // Eventually Will Be Replaced with a Router
 class App extends Component {

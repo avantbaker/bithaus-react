@@ -5835,8 +5835,7 @@ html, body {
   height: 100%; }
 
 .app {
-  height: 100%;
-  background-color: #cb3837; }
+  height: 100%; }
 
 .app-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -5844,6 +5843,11 @@ html, body {
 
 .app-intro {
   font-size: large; }
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #cb3837; }
 
 @keyframes app-logo-spin {
   from {
