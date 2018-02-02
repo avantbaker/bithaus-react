@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-
-import SignInPage from './pages/SignInPage';
+import { BrowserRouter } from 'react-router-dom';
+import ApplicationNavigator from '../navigation';
 
 // Eventually Will Be Replaced with a Router
 class App extends Component {
     render() {
         return (
-            <div className="app">
-                <SignInPage />
-            </div>
+            <BrowserRouter>
+                <ApplicationNavigator />
+            </BrowserRouter>
         );
     }
 }

@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+.p-collapse {
+  padding: 0;
+}
+
 .clearfix {
   &:before {
     display: table;
@@ -13,4 +17,8 @@
     content: "";
     line-height: 0;
   }
+}
+
+.bg-primary {
+  background-color: $primary;
 }

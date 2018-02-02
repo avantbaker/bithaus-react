@@ -9,7 +9,7 @@ html, body {
 
 .app {
   height: 100%;
-  background-color: $primary;
+  width: 100%;
 }
 
 .app-logo {
@@ -19,6 +19,11 @@ html, body {
 
 .app-intro {
   font-size: large;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes app-logo-spin {
