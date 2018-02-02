@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f877b0a-5c35-41f6-a29a-feb379860768" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/navigation/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/utilities/RouterWithWrapper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/routes.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.css" afterPath="$PROJECT_DIR$/public/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/HeaderContainer.js" afterPath="$PROJECT_DIR$/src/components/containers/HeaderContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/SessionContainer.js" afterPath="$PROJECT_DIR$/src/components/containers/SessionContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/DashboardPage.js" afterPath="$PROJECT_DIR$/src/components/pages/DashboardPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/SignInPage.js" afterPath="$PROJECT_DIR$/src/components/pages/SignInPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/scss/_app.scss" afterPath="$PROJECT_DIR$/src/components/scss/_app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/scss/_utility.scss" afterPath="$PROJECT_DIR$/src/components/scss/_utility.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/scss/index.scss" afterPath="$PROJECT_DIR$/src/components/scss/index.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -329,12 +317,12 @@
       <workItem from="1516928702580" duration="11461000" />
       <workItem from="1517045249918" duration="16655000" />
       <workItem from="1517096566051" duration="12368000" />
-      <workItem from="1517445979554" duration="7978000" />
+      <workItem from="1517445979554" duration="8109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48462000" />
+    <option name="totallyTimeSpent" value="48593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-116" width="1920" height="1080" extended-state="0" />
